@@ -1,0 +1,43 @@
+ginkgo-test:
+  end_num: 22098
+  force: ture
+  sheets:
+  - rerun
+  - v4.3
+  - v4.4
+  - v4.5
+  - v4.6
+  - v4.7
+  - v4.8
+  - v4.9
+  tmp_end_num: 12898
+ginkgo-test-vm:
+  end_num: 7619
+  force: ture
+  sheets:
+  - rerun
+  - v4.3_vm
+  - v4.4_vm
+  - v4.5_vm
+  - v4.6_vm
+  - v4.7_vm
+  - v4.8_vm
+  - v4.9_vm
+google:
+  key_file: /root/jitli/rerun_tool/openshift-qe-buildcorp.json
+  sheet_file: https://docs.google.com/spreadsheets/d/1esQpl_vDYU6qXX9n3p1ydDTiUEj2QXFqHBRz1Y6deyw/edit#gid=848076981
+jenkins:
+  password: xxxx
+  ssl_verify: false
+  timeout: 120
+  url: https://mastern-jenkins-csb-openshift-qe.apps.ocp4.prod.psi.redhat.com
+  username: jitli
+storage:
+  dir: /Users/redhat/work/ci-logs
+  report_dir: /Users/redhat/work/buildcorp
+  report_url: http://virt-openshift-05.lab.eng.nay.redhat.com/buildcorp
+  url: http://virt-openshift-05.lab.eng.nay.redhat.com/ci-logs
+upshift:
+  password: powermice
+  url: https://polarshift-api-aosqe.apps.ocp4.prod.psi.redhat.com
+  username: user
